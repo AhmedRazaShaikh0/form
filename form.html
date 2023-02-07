@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body background="./bg3.jpg" style="background-size: 100%;">
+    
+    <center><h2 style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif;" >REVIEW FORM</h2></center>
+
+    <form style="width: 360PX; margin: auto;">
+    <center>
+        <fieldset style="background-color: rgb(77, 156, 156);">
+            <legend style="background-color: grey; text-align: center; color: white; padding: 1%;">Your Details:</legend>
+        
+            <label>Name:</label><input type="text" size="30ch" style="margin-top: 23px;"><br><br>
+            <label>Email:</label><input type="email" size="30ch"><br><br>
+            <label>Phone:</label><input type="tel" size="30ch"><br><br>
+    
+    
+        </fieldset>
+    </center>
+        </form>
+        <br><br>
+        <center>
+        <form style="width: 360px;">
+        <fieldset style="background-color: rgb(77, 156, 156);" >
+            <legend style="background-color: grey; text-align: center; color: white; padding: 1%;">Your Review:</legend><br>
+
+               <label> How did you hear about this course? </label>
+        <select >
+                <option value="">Google</option>
+                <option value="">Facebook</option>
+                <option value="">Instagram</option>
+        </select>
+                <br><br>
+                Would you like this code?<br>
+                <input type="radio" name="opt">Yes
+                <input type="radio"  name="opt" >No
+                <input type="radio"  name="opt">Maybe
+                <br><br>
+                Comments: <br>
+                <textarea name="" id="" cols="40" rows="4"></textarea> <br><br>
+                What's Your Expertise?<br>
+                <input type="checkbox">Html <br>
+                <input type="checkbox">Css <br>
+                <input type="checkbox">Javascript <br><br>
+                <input type="checkbox" checked="checked">Sign me up for email updates
+                 <br><br>
+                 <input type="button" value="submit" onclick="name()">                                       
+
+        </fieldset>
+        </form>
+        </center>
+        
+        <script>
+            function name(){
+                alert("thankyou")
+            }
+        </script>
+</body>
+</html>
